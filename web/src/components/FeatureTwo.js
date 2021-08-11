@@ -19,8 +19,8 @@ function Domestic() {
             </h5>
           </div>
         </div>
-        <div className="flex flex-row w-full bg-indigo-200 px-10 py-10 rounded-2xl">
-          <div className="w-3/12 bg-indigo-400 items-center mx-2 rounded-md">
+        <div className="flex flex-row w-full px-10 py-10 rounded-2xl">
+          <div className="w-3/12 bg-gray-100 items-center mx-2 rounded-md">
             <div className="flex flex-col mx-3 my-3 items-center justify-items-center">
               <img src="/images/goa.jpeg" alt="goa"></img>
             </div>
@@ -38,7 +38,7 @@ function Domestic() {
               </div>
             </div>
           </div>
-          <div className="w-3/12 bg-red-300 items-center mx-2 rounded-md">
+          <div className="w-3/12 bg-gray-100 items-center mx-2 rounded-md">
             <div className="flex flex-col mx-3 my-3 items-center justify-items-center">
               <img src="/images/mumbai.jpeg" alt="paris"></img>
             </div>
@@ -56,7 +56,7 @@ function Domestic() {
               </div>
             </div>
           </div>
-          <div className="w-3/12 bg-green-300 items-center mx-2 rounded-md">
+          <div className="w-3/12 bg-gray-100 items-center mx-2 rounded-md">
             <div className="flex flex-col mx-3 my-3 items-center justify-items-center">
               <img src="/images/tajmahal.jpeg" alt="paris"></img>
             </div>
@@ -74,7 +74,7 @@ function Domestic() {
               </div>
             </div>
           </div>
-          <div className="w-3/12 bg-yellow-300 items-center mx-2 rounded-md">
+          <div className="w-3/12 bg-gray-100 items-center mx-2 rounded-md">
             <div className="flex flex-col mx-3 my-3 items-center justify-items-center">
               <img src="/images/kerala.jpeg" alt="paris"></img>
             </div>

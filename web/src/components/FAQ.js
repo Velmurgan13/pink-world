@@ -2,13 +2,13 @@ import React from "react";
 
 function FAQ() {
   return (
-    <div className="flex flex-col w-full items-center justify-items-center h-96">
-      <div className="flex flex-col w-10/12 h-full">
+    <div className="flex flex-col w-full items-center justify-items-cente py-5">
+      <div className="flex flex-col w-10/12">
         <div className="text-3xl text-center m-8 w-full">
           <h4 className="font-bold">Why Pink World?</h4>
         </div>
-        <div className="flex flex-row w-full h-full">
-          <div className="flex flex-col w-3/12 my-5 mx-5 h-full items-center">
+        <div className="flex flex-row w-full">
+          <div className="flex flex-col w-3/12 my-5 mx-5 items-center">
             <div className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function FAQ() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col w-3/12 my-5 mx-5 h-full items-center">
+          <div className="flex flex-col w-3/12 my-5 mx-5 items-center">
             <div className="">
               <img
                 src="/images/listening.png"
@@ -49,7 +49,7 @@ function FAQ() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col w-3/12 my-5 mx-5 h-full items-center">
+          <div className="flex flex-col w-3/12 my-5 mx-5 items-center">
             <div className="">
               <img
                 src="/images/smile.jpeg"
@@ -65,7 +65,7 @@ function FAQ() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col w-3/12 my-5 mx-5 h-full items-center">
+          <div className="flex flex-col w-3/12 my-5 mx-5 items-center">
             <div className="">
               <img
                 src="/images/handcraft.png"
@@ -81,6 +81,12 @@ function FAQ() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex flex-row  w-full h-1">
+          <div className="flex w-3/12 bg-red-300 mx-5 h-full"></div>
+          <div className="flex w-3/12 bg-yellow-300 mx-5 h-full"></div>
+          <div className="flex w-3/12 bg-blue-400  mx-5 h-full"></div>
+          <div className="flex w-3/12 bg-green-300 mx-5 h-full"></div>
         </div>
       </div>
     </div>
