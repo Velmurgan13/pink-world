@@ -1,3 +1,8 @@
 import { combineReducers } from "redux";
+import { dummy } from "./dummy";
 
-export default () => combineReducers({});
+// eslint-disable-next-line
+export default () =>
+  combineReducers({
+    dummy,
+  });
